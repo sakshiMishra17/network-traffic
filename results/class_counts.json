@@ -1,0 +1,7 @@
+{
+  "Benign": 30000,
+  "DDoS": 30000,
+  "PortScan": 30000,
+  "DoS": 30000,
+  "BruteForce": 9150
+}

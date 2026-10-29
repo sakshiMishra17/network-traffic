@@ -1,0 +1,5 @@
+Model,Type,Accuracy,Macro F1,Weighted F1,Macro Precision,Macro Recall,Train time (s),Inference (ms/1000 rows)
+XGBoost,sklearn,0.9997,0.9997,0.9997,0.9997,0.9998,59.57,23.89
+HistGradientBoosting,sklearn,0.9995,0.9995,0.9995,0.9995,0.9996,61.68,40.97
+RandomForest,sklearn,0.9989,0.999,0.9989,0.999,0.999,34.14,14.88
+MLP_sklearn,sklearn,0.9989,0.9988,0.9989,0.9986,0.9989,203.26,9.27

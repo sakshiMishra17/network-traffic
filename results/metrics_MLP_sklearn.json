@@ -1,0 +1,90 @@
+{
+  "model": "MLP_sklearn",
+  "kind": "sklearn",
+  "model_file": "MLP_sklearn.pkl",
+  "accuracy": 0.9988643989056935,
+  "macro_f1": 0.9987695214287629,
+  "weighted_f1": 0.9988644894896351,
+  "macro_precision": 0.9986200307382118,
+  "macro_recall": 0.9989210002427773,
+  "val_macro_f1": 0.9988638364202315,
+  "train_time_s": 203.255818199832,
+  "infer_ms_per_1000": 9.271578998541182,
+  "per_class": {
+    "Benign": {
+      "precision": 0.9993316997104033,
+      "recall": 0.9968888888888889,
+      "f1-score": 0.9981087996440093,
+      "support": 4500.0
+    },
+    "BruteForce": {
+      "precision": 0.997093023255814,
+      "recall": 0.9992716678805535,
+      "f1-score": 0.9981811567842852,
+      "support": 1373.0
+    },
+    "DDoS": {
+      "precision": 1.0,
+      "recall": 0.9997777777777778,
+      "f1-score": 0.999888876541838,
+      "support": 4500.0
+    },
+    "DoS": {
+      "precision": 0.9968978506536672,
+      "recall": 0.9997777777777778,
+      "f1-score": 0.9983357372683901,
+      "support": 4500.0
+    },
+    "PortScan": {
+      "precision": 0.9997775800711743,
+      "recall": 0.9988888888888889,
+      "f1-score": 0.9993330369052913,
+      "support": 4500.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      4486,
+      4,
+      0,
+      9,
+      1
+    ],
+    [
+      1,
+      1372,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      4499,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      4499,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      4495
+    ]
+  ],
+  "class_names": [
+    "Benign",
+    "BruteForce",
+    "DDoS",
+    "DoS",
+    "PortScan"
+  ],
+  "epochs": 25
+}

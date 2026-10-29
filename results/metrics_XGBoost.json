@@ -1,0 +1,89 @@
+{
+  "model": "XGBoost",
+  "kind": "sklearn",
+  "model_file": "XGBoost.pkl",
+  "accuracy": 0.999741908842203,
+  "macro_f1": 0.9997271858902614,
+  "weighted_f1": 0.9997419096297679,
+  "macro_precision": 0.9996766815457985,
+  "macro_recall": 0.9997777777777778,
+  "val_macro_f1": 0.99944792064778,
+  "train_time_s": 59.56640829984099,
+  "infer_ms_per_1000": 23.89144685919521,
+  "per_class": {
+    "Benign": {
+      "precision": 0.9997777283840854,
+      "recall": 0.9995555555555555,
+      "f1-score": 0.9996666296255139,
+      "support": 4500.0
+    },
+    "BruteForce": {
+      "precision": 0.9992721979621543,
+      "recall": 1.0,
+      "f1-score": 0.9996359665089188,
+      "support": 1373.0
+    },
+    "DDoS": {
+      "precision": 1.0,
+      "recall": 0.9997777777777778,
+      "f1-score": 0.999888876541838,
+      "support": 4500.0
+    },
+    "DoS": {
+      "precision": 0.9997777283840854,
+      "recall": 0.9995555555555555,
+      "f1-score": 0.9996666296255139,
+      "support": 4500.0
+    },
+    "PortScan": {
+      "precision": 0.9995557529986673,
+      "recall": 1.0,
+      "f1-score": 0.9997778271495223,
+      "support": 4500.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      4498,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1373,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4499,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      4498,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4500
+    ]
+  ],
+  "class_names": [
+    "Benign",
+    "BruteForce",
+    "DDoS",
+    "DoS",
+    "PortScan"
+  ]
+}
